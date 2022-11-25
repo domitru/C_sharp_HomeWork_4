@@ -2,3 +2,11 @@
 // пример:
 //             1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 //             6, 1, 33 -> [6, 1, 33]
+
+int [] mas = new int [8];
+
+for (int i = 0; i < mas.Length; i++)
+{
+    mas[i] = new Random().Next(0, 100);
+}
+    Console.Write("[" + string.Join(", ", mas) + "]");
